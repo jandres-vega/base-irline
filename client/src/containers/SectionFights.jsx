@@ -2,6 +2,9 @@ import React from 'react';
 import '../styles/SectionFights.css';
 import FilterByTrip from "../components/FilterByTrip";
 import OriginCity from "../components/OriginCity";
+import SelectDestination from "../components/SelectDestination";
+import ExitFights from "../components/ExitFights";
+import BackFights from "../components/BackFights";
 const SectionFights = () => {
     return (
         <section className="section-fights">
@@ -10,7 +13,14 @@ const SectionFights = () => {
                 <p>Descubre vuelos al mejor precio y perfecto para cualquier viaje.</p>
             </div>
             <FilterByTrip />
-            <OriginCity />
+            <div className="section-origin-and-destination">
+                <OriginCity />
+                <SelectDestination />
+            </div>
+            <div className="section-origin-and-destination">
+                <ExitFights />
+                <BackFights />
+            </div>
         </section>
     );
 };
