@@ -1,6 +1,6 @@
 .section-fights {
     width: 500px;
-    height: 500px;
+    height: 450px;
     background-color: #efefef;
     position: absolute;
     z-index: 2;
@@ -10,6 +10,11 @@
     padding: 10px;
 }
 .section-origin-and-destination {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+.section-promotion-passengers {
     display: flex;
     flex-direction: row;
     gap: 10px;

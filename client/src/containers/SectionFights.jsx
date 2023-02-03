@@ -5,6 +5,8 @@ import OriginCity from "../components/OriginCity";
 import SelectDestination from "../components/SelectDestination";
 import ExitFights from "../components/ExitFights";
 import BackFights from "../components/BackFights";
+import SelectPassengers from "../components/SelectPassengers";
+import SectionPromotion from "../components/SectionPromotion";
 const SectionFights = () => {
     return (
         <section className="section-fights">
@@ -20,6 +22,10 @@ const SectionFights = () => {
             <div className="section-origin-and-destination">
                 <ExitFights />
                 <BackFights />
+            </div>
+            <div className="section-promotion-passengers">
+                <SelectPassengers />
+                <SectionPromotion />
             </div>
         </section>
     );
