@@ -7,6 +7,7 @@ import ExitFights from "../components/ExitFights";
 import BackFights from "../components/BackFights";
 import SelectPassengers from "../components/SelectPassengers";
 import SectionPromotion from "../components/SectionPromotion";
+import SearchFights from "../components/SearchFights";
 const SectionFights = () => {
     return (
         <section className="section-fights">
@@ -27,6 +28,7 @@ const SectionFights = () => {
                 <SelectPassengers />
                 <SectionPromotion />
             </div>
+            <SearchFights />
         </section>
     );
 };
